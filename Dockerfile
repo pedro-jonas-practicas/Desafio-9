@@ -1,4 +1,4 @@
-FROM ubuntu:24.10
+FROM ubuntu:latest
 
 RUN apt update
 RUN apt upgrade -y
