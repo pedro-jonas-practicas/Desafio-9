@@ -1,31 +1,23 @@
-# NodeJs, helloworld API for test propouses.
+# Desafio 9 Docker Github Actions
 
-This is a simple API that returns a welcome message.
+Guía para uso del pipeline.
 
-## Run your local environment
+## En tu PC local
 
-### Clone the repository
+### Clonar el repositorio
 ```bash
-git clone https://github.com/edgaregonzalez/nodejs-helloworld-api.git
+git clone https://github.com/pedro-jonas-practicas/Desafio-9.git
 ```
 
-### Install dependencies
-```bash
-npm install
-```
+### Modificar Dockerfile
+Modificar el repositorio del `RUN` por el que hayas forkeado o copiado
 
-### Run the tests
-```bash
-npm test
-```
+### Credenciales Docker
+Cargar las credenciales en Github como secrets para evitar hardodearlas
 
-### Start the server
-```bash
-npm start
-```
+### Modificar el pipeline
+Modificar la ruta de ser necesaria de tu Dockerfile y el repositorio privado de Dockerhub donde irá la imagen.
 
-### Make a request
-```bash
-curl http://localhost:3000
-```
-# test job
+### Revisar pipeline
+Verificar si se encuentra toda la info en el pipeline correctamente ingresada.
+De lo contrario, este no se ejecutará.
